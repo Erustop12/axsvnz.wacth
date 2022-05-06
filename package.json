@@ -1,0 +1,19 @@
+{
+  "name": "axiewatch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "yarn workspace @axiewatch/server",
+    "web": "yarn workspace @axiewatch/web"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@axiewatch/eslint-config": "*",
+    "typescript": "^4.4.4"
+  }
+}
